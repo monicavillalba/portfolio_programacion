@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro Usuario</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<form action="registrousuario.html" method="POST">
+	<fieldset>
+		<legend>Datos para registro en la App</legend>
+	
+    <input type="text" name="nombre-apellido" placeholder="nombre-apellido(usuario)" required onautocomplete="off">
+	   <br>
+	   <br>
+	<input type="number" name="dni" placeholder="dni">
+	<br>
+	<br>
+	<input type="date" name="fecha nacimiento">
+	<br>
+	<br>
+	<input type="time" name="hora">
+	<br>
+	<br>
+	<input type="password" name="contraseña" placeholder="introducir contraseña">
+	<br>
+	<br>
+	<input type="file" name="archivo">
+</fieldset>
+
+	<br>
+	<br>
+	<h2>Eleccion de producto</h2>
+
+	<table border="1" width="30%">
+	<caption>PINTURAS</caption>
+	<tr>
+		<th>1. Azul</th>
+		<th>2. Rosa</th>
+		<th>3. Turqueza</th>
+	</tr>
+    <tr>
+    	<th>4. Blanco</th>
+    	<th>5. Beige</th>
+    	<th>6. Negro</th>
+    </tr>
+</table>
+<br>
+<br>
+	<select name="opciones">
+		<option value="1"> opcion 1 </option>
+		<option value="2"> opcion 2 </option>
+		<option value="3"> opcion 3 </option>
+		<option value="4"> opcion 4 </option>
+		<option value="5"> opcion 5 </option>
+		<option value="6"> opcion 6 </option>
+	</select>
+	<br>
+	<br>
+	<h3>Comentarios</h3>
+	<textarea name="Comentarios"></textarea>
+	<br>
+	<br>
+	<input type="submit" value="Guardar"><input type="reset" value="borrar">
+</form>
+
+
+
+</body>
+</html>
